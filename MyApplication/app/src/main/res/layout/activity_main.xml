@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:background="@color/black">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#FF0000"
+           android:layout_weight="1"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:background="#00FF00"
+               android:layout_weight="1"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:background="#638FDA"
+                   android:layout_weight="1">
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="horizontal"
+                       android:background="#0000FF"
+                       android:layout_weight="1">
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="vertical"
+                           android:background="#0000FF"
+                           android:layout_weight="1">
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:orientation="vertical"
+                               android:background="#7A7AA1"
+                               android:layout_weight="1">
+                               <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:background="#FFFFFF"
+                                   android:layout_weight="1"/>
+                               <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="vertical"
+                                   android:background="#0000FF"
+                                   android:layout_weight="1"/>
+                           </LinearLayout>
+                       </LinearLayout>
+
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="vertical"
+                           android:background="#0000FF"
+                           android:layout_weight="1"/>
+                       </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       android:background="#60CDEA"
+                       android:layout_weight="1"/>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="#93D659"
+                   android:orientation="vertical" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="#FFFF00"
+               android:layout_weight="1"/>
+
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#FF9900"
+           android:layout_weight="1"></LinearLayout>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF0000"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
